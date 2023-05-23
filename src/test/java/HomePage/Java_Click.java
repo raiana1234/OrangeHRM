@@ -23,7 +23,7 @@ public class Java_Click {
 //        driver.switchTo().alert().accept();
 //        Thread.sleep(3000);
 //
-//        //Clicking click for JS comfirm button
+//        //Clicking click for JS confirm button
 //        driver.findElement(By.xpath("//button[@onclick='jsConfirm()']")).click();
 //
 //       Alert alert = driver.switchTo().alert();

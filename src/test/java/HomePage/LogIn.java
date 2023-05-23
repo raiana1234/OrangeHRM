@@ -57,12 +57,12 @@ public class LogIn {
 //        // 3. User Provide username - azkaraeleah1234
         driver.findElement(By.name("email")).sendKeys("raianarazzaq@hotmail.com");
 //
-//        // 4. User Provide password - Az78967123
+        // 4. User Provide password - Az78967123
         driver.findElement(By.name("pass")).sendKeys("Rr78967123");
-//
-//        // 5. User Click on login button
+
+        // 5. User Click on login button
         driver.findElement(By.xpath("//button[@name='login']")).click();
-//
+
         // 6. User Verify the title of dashboard page. Exp title: Instagram
         String title= driver.getTitle();
         System.out.println("This title is capture after login from the dashboard page:" +title);
