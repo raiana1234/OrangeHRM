@@ -5,11 +5,10 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 //Rile---->WorkBook---->Sheet---->Rows---->Cells
-public class ReadingExcel2 {
+public class ReadingExcel {
 
     public static void main(String[] args) throws IOException {
 
