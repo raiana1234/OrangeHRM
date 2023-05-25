@@ -8,7 +8,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 //Rile---->WorkBook---->Sheet---->Rows---->Cells
-public class ReadingExcel {
+public class Reading_Excel {
 
     public static void main(String[] args) throws IOException {
 
@@ -22,12 +22,6 @@ public class ReadingExcel {
 
         System.out.println(totalrows);
         System.out.println(totalcell);
-
-
-
-
-
-
 
     }
 
