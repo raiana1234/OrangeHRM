@@ -7,17 +7,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 /*
-* 1. User Launch Browser - Chrome-browser
-* 2. User Open URL - https://www.instagram.com/accounts/login/
-* 3. User Provide username - azkaraeleah1234
-* 4. User Provide password - Az78967123
-* 5. User Click on login button
-* 6. User Verify the title of dashboard page. Exp title: Instagram
-* 7. User Close Browser
-* */
+ * 1. User Launch Browser - Chrome-browser
+ * 2. User Open URL - https://www.instagram.com/accounts/login/
+ * 3. User Provide username - azkaraeleah1234
+ * 4. User Provide password - Az78967123
+ * 5. User Click on login button
+ * 6. User Verify the title of dashboard page. Exp title: Instagram
+ * 7. User Close Browser
+ * */
 public class LogIn {
     public static void main(String[] args) throws InterruptedException {
-
 
 
         // 1. User Launch Browser - Chrome-browser
@@ -64,8 +63,8 @@ public class LogIn {
         driver.findElement(By.xpath("//button[@name='login']")).click();
 
         // 6. User Verify the title of dashboard page. Exp title: Instagram
-        String title= driver.getTitle();
-        System.out.println("This title is capture after login from the dashboard page:" +title);
+        String title = driver.getTitle();
+        System.out.println("This title is capture after login from the dashboard page:" + title);
 
         // 7. User Close Browser
         driver.quit();
@@ -77,7 +76,7 @@ public class LogIn {
 //        driver.manage().deleteAllCookies();
 
         // 2. User Open URL - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-//        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        // driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 //        Thread.sleep(3000);
 
         // 3. User Provide username - Admin
@@ -98,13 +97,6 @@ public class LogIn {
 
         // 7. User Close Browser
 //        driver.quit();
-
-
-
-
-
-
-
 
 
     }
