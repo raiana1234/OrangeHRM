@@ -21,33 +21,24 @@ public class Reading_Excel2 {
 
         Iterator iterator = sheet.iterator();
 
-        while(iterator.hasNext())
-        {
+        while (iterator.hasNext()) {
             XSSFRow row = (XSSFRow) iterator.next();
 
             Iterator cellIterator = row.cellIterator();
 
-            while(cellIterator.hasNext())
-            {
+            while (cellIterator.hasNext()) {
 
                 XSSFCell cell = (XSSFCell) cellIterator.next();
 
-                System.out.printf("%s\t",cell);
+                System.out.printf("%s\t", cell);
 
                 System.out.print(" | ");
-
-
 
 
             }
 
             System.out.println(" ");
         }
-
-
-
-
-
 
 
     }
