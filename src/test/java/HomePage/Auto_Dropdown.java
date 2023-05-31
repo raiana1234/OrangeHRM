@@ -23,14 +23,14 @@ public class Auto_Dropdown {
         driver.findElement(By.xpath("//textarea[@id='APjFqb']")).sendKeys("selenium");
         Thread.sleep(3000);
         List<WebElement> listofitems = driver.findElements(By.xpath("//div[@class='wM6W7d']//span"));
-        System.out.println("Total number of items "+ listofitems.size());
+        System.out.println("Total number of items " + listofitems.size());
 
-        for(int a=0; a<listofitems.size(); a++){
+        for (int a = 0; a < listofitems.size(); a++) {
 
-           String items = listofitems.get(a).getText();
+            String items = listofitems.get(a).getText();
             System.out.println(items);
 
-            if(items.equals("selenium foods")){
+            if (items.equals("selenium benefits")) {
 
                 listofitems.get(a).click();
                 break;
