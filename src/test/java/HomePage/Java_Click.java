@@ -39,9 +39,7 @@ public class Java_Click {
         alert1.sendKeys("Welcome");
 
 
-
         driver.quit();
-
 
 
     }
