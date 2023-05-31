@@ -16,7 +16,7 @@ public class Reading_Excel {
 
         XSSFWorkbook workbook = new XSSFWorkbook(file);
 
-       XSSFSheet sheet = workbook.getSheet("Sheet1");
+        XSSFSheet sheet = workbook.getSheet("Sheet1");
         int totalrows = sheet.getLastRowNum();
         int totalcell = sheet.getRow(1).getLastCellNum();
 
