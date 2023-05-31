@@ -23,18 +23,18 @@ public class CheckBox2 {
         js.executeScript("window.scroll(0,document.body.scrollHeight/3)");
 
         List<WebElement> itemcheckbox = driver.findElements(By.xpath("//input[@class='form-check-input'and@type='checkbox']"));
-        System.out.println("Total number of days are: "+ itemcheckbox.size());
+        System.out.println("Total number of days are: " + itemcheckbox.size());
 
         driver.findElement(By.id("female")).click();
         Thread.sleep(1000);
 
         // System.out.println(itemcheckbox.size());
         Thread.sleep(2000);
-        for(WebElement checkbox : itemcheckbox){
+        for (WebElement checkbox : itemcheckbox) {
             checkbox.click();
         }
         Thread.sleep(2000);
-        for(WebElement checkbox : itemcheckbox){
+        for (WebElement checkbox : itemcheckbox) {
             checkbox.click();
         }
         driver.quit();
