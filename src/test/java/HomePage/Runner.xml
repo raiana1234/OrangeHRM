@@ -1,0 +1,24 @@
+<suite name="All Test Suite">
+
+
+    <test verbose="2" preserve-order="true"
+          name="C:\Users\Raiana Razzaq\IdeaProjects\com.OrangeHRM\src\test\java\HomePage/LoginWithTestNG.java">
+
+        <classes>
+
+            <class name="HomePage.LoginWithTestNG">
+
+                <methods>
+
+
+                </methods>
+
+
+            </class>
+
+        </classes>
+
+    </test>
+
+
+</suite>
