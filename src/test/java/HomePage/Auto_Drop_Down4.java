@@ -31,9 +31,6 @@ public class Auto_Drop_Down4 {
                 listofitems.get(a).click();
                 break;
 
-
-
-
             }
 
         }
@@ -41,6 +38,5 @@ public class Auto_Drop_Down4 {
         driver.quit();
 
     }
-
 
 }
